@@ -1000,7 +1000,7 @@ section {
 }
 .pricing .box h4 {
   font-size: 42px;
-  color: #009961;
+  color: #CA0016;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1027,7 +1027,7 @@ section {
   padding-bottom: 16px;
 }
 .pricing .box ul i {
-  color: #009961;
+  color: #CA0016;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1043,8 +1043,8 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #009961;
-  color: #009961;
+  border: 2px solid #CA0016;
+  color: #CA0016;
   font-size: 14px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -1052,19 +1052,19 @@ section {
   transition: 0.3s;
 }
 .pricing .box .btn-buy:hover {
-  background: #009961;
+  background: #CA0016;
   color: #fff;
 }
 .pricing .recommended {
-  border-color: #009961;
+  border-color: #CA0016;
 }
 .pricing .recommended .btn-buy {
-  background: #009961;
+  background: #CA0016;
   color: #fff;
 }
 .pricing .recommended .btn-buy:hover {
-  background: #00b371;
-  border-color: #00b371;
+  background: #CA0016;
+  border-color: #CA0016;
 }
 .pricing .recommended-badge {
   position: absolute;
@@ -1151,7 +1151,7 @@ section {
   color: #343a40;
 }
 .faq .accordion-list a.collapsed:hover {
-  color: #009961;
+  color: #CA0016;
 }
 .faq .accordion-list a.collapsed .icon-show {
   display: inline-block;
