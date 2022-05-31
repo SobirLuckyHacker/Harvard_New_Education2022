@@ -1,7 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -52,18 +51,79 @@
             <ul>
               <li><a class="nav-link scrollto active" href="#hero">Bosh Sahifa</a></li>
               <li><a class="nav-link scrollto" href="#about">Biz Haqimizda</a></li>
-              <li><a class="nav-link scrollto" href="#services">Jamoalar</a></li>
-              <li><a class="nav-link scrollto " href="#portfolio">Gelereya</a></li>
+              <li><a class="nav-link scrollto" href="#services">Bizning Jamoa</a></li>
+              <li><a class="nav-link scrollto " href="#portfolio">Galereya</a></li>
               <li><a class="nav-link scrollto" href="#pricing">Fanlar</a></li>
               <li><a class="nav-link scrollto" href="#contact">Bog'lanish</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav>
-          <a href="#contact" class="get-started-btn scrollto">Bizga Qo'ng'iroq Qiling</a>
+          <a href="" class="get-started-btn scrollto btn btn-default btn-rounded" data-toggle="modal" data-target="#modalSubscriptionForm">Bizga Bog'laning</a>
+
+          <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Subscribe</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form3" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form3">Your name</label>
+        </div>
+
+        <div class="md-form mb-4">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="form2" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form2">Your email</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-indigo">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </div>
     </div>
   </header>
+  <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Subscribe</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form3" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form3">Your name</label>
+        </div>
+
+        <div class="md-form mb-4">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="form2" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form2">Your email</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-indigo">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
@@ -104,7 +164,7 @@
             <p>
               Fanlaridan oliy toifali va malakali o'qituvchilarimiz tomonidan kerakli bilim va ko'nikmalar berib kelinmoqda. Umumiy ko'rsatkichlar bo'yicha har yili 85% tahsil oluvchilar oliy o'quv yurtlari va ixtisoslashtirilgan maktablarga davlat granti va shartnoma asosida o'qishga qabul qilinmoqda.
             </p>
-            <a href="#contact" class="btn-learn-more">Bizga Qo'ng'iroq Qiling</a>
+            <a href="#contact" class="btn-learn-more">Bizga Bog'laning</a>
           </div>
         </div>
 
@@ -117,7 +177,7 @@
 
         <div class="row">
           <div class="col-lg-12 text-center text-lg-start">
-            <h3>Bizga Qo'ng'iroq Qiling</h3>
+            <h3>Bizga Bog'laning</h3>
             <p>Аgar inson ilm nuri bilan oʼz yoʼlini yoritmasa, zulmat va nodonlik koʼchasida qoladi. Kishi qalbining nuri ilm va maʼrifat bilan baquvvat boʼladi. Insoniyatning qadri ilm bilan hosil boʼladi. Ilmdan hali hech kim zarar koʼrgan emas. Ilmni egallab olish esa bir sanʼatdir.</p>
           </div>
           <!-- <div class="col-lg-3 cta-btn-container text-center">
@@ -216,7 +276,7 @@
 
         <div class="row">
           <div class="col-lg-12 text-center text-lg-start">
-            <h3>Bizga Qo'ng'iroq Qiling</h3>
+            <h3>Bizga Bog'laning</h3>
             <p>Аgar inson ilm nuri bilan oʼz yoʼlini yoritmasa, zulmat va nodonlik koʼchasida qoladi. Kishi qalbining nuri ilm va maʼrifat bilan baquvvat boʼladi. Insoniyatning qadri ilm bilan hosil boʼladi. Ilmdan hali hech kim zarar koʼrgan emas. Ilmni egallab olish esa bir sanʼatdir.</p>
           </div>
           <!-- <div class="col-lg-3 cta-btn-container text-center">
@@ -440,7 +500,7 @@
                 <!-- <li class="na">CEFR</li> -->
               </ul>
               <div class="btn-wrap">
-                <a href="#contact" class="btn-buy">Qo'ng'iroq Qiling</a>
+                <a href="#contact" class="btn-buy">Bizga Bog'laning</a>
               </div>
             </div>
           </div>
@@ -458,7 +518,7 @@
                 <!-- <li class="na">Massa ultricies mi</li> -->
               </ul>
               <div class="btn-wrap">
-                <a href="#contact" class="btn-buy">Qo'ng'iroq Qiling</a>
+                <a href="#contact" class="btn-buy">Bizga Bog'laning</a>
               </div>
             </div>
           </div>
@@ -477,7 +537,7 @@
                 <!-- <li>Massa ultricies mi</li> -->
               </ul>
               <div class="btn-wrap">
-                <a href="#contact" class="btn-buy">Qo'ng'iroq Qiling</a>
+                <a href="#contact" class="btn-buy">Bizga Bog'laning</a>
               </div>
             </div>
           </div>
@@ -517,29 +577,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-xs-6">
-        <div class="client-logo">
-          <img src="{% static 'Site/assets/img/clients/client-5.png' %}" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4 col-xs-6">
-        <div class="client-logo">
-          <img src="{% static 'Site/assets/img/clients/client-6.png' %}" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4 col-xs-6">
-        <div class="client-logo">
-          <img src="{% static 'Site/assets/img/clients/client-7.png' %}" class="img-fluid" alt="">
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4 col-xs-6">
-        <div class="client-logo">
-          <img src="{% static 'Site/assets/img/clients/client-8.png' %}" class="img-fluid" alt="">
-        </div>
-      </div>
+      
 
     </div>
 
@@ -610,8 +648,9 @@
       </div>
 
       <div>
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.5891642497622!2d64.42804061487327!3d39.771331702561795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f500705a6b704f5%3A0x29597ff8f13fb6b!2sHARVARD%20SCHOOL!5e0!3m2!1sru!2s!4v1640342869164!5m2!1sru!2s"" frameborder="0" allowfullscreen></iframe>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://youtu.be/2NBS7MgYt3k"  allowfullscreen></iframe>
       </div>
+      
 
       <div class="container">
 
@@ -643,7 +682,8 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="" method="post" >
+              {% csrf_token %}
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="f_name" class="form-control" id="name" placeholder="Ism" required>
@@ -653,15 +693,11 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="number" id="subject" placeholder="Tel Raqam" required>
+                <input type="text" class="form-control" name="phone" id="subject" placeholder="Tel Raqam" required>
               </div>
-<!-- 
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div> -->
-              <div class="text-center"><button type="submit">Yuborish</buttonYuborish></div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-danger mt-2">Yuborish</button>
+                </div>
             </form>
 
           </div>

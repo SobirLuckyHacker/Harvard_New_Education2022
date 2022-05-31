@@ -770,19 +770,20 @@ section {
   padding-top: 0;
 }
 .clients .clients-wrap {
-  border-top: 1px solid #e7e7e7;
-  border-left: 1px solid #e7e7e7;
+  /* border-top: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7; */
+  
 }
 .clients .client-logo {
-  padding: 31px;
+  padding: 21px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
+  /* border-right: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7; */
   overflow: hidden;
   background: #fff;
-  height: 140px;
+  height: 80px;
 }
 .clients .client-logo:hover img {
   transform: scale(1.1);
